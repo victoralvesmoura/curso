@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo 05</title>
+    <style>
+
+        /* ATENÇÃO!!! VERIFICAR NO CURSO AS IMAGENS E O "transform: translate(-50% -50%)" o porque elas não funcionam*/
+
+        body{
+            height: 100hv;
+        }
+
+        #container{
+            position: relative;
+            height: 700px;
+            padding: 10px;
+            background-color: rgb(117, 117, 117);
+            background-image: url('imagens/target001.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        #conteudo{
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color: white;
+            margin: auto;
+            background-image: url('imagens/target001.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            left: 50%;
+            right: 50%;
+            transform: translate(-50%, 125%);
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            
+        </article>
+    </section>
+</body>
+</html>
